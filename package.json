@@ -1,0 +1,11 @@
+{
+  "name": "url-chopper",
+  "version": "0.0.1",
+  "description": "Remove those pesky search params from a url to make it tidy and shareable.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Jen Weber",
+  "license": "MIT"
+}
