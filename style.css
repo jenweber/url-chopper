@@ -6,16 +6,21 @@ body {
 }
 
 button {
-	background: #aaa;
+	background-color: #aaa;
 	color: inherit;
 	border: 2px solid black;
 	padding: 10px;
 	font: inherit;
-	outline: inherit;
   font-size: 20px;
   margin: 10px 0;
   width: 100%;
   box-sizing: border-box;
+  transition: color 0.5s, background-color 0.5s;
+}
+
+button#copy-button:hover {
+  background-color: rgb(65, 65, 65);
+  color: white;
 }
 
 input {
